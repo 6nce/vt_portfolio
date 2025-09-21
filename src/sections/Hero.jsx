@@ -1,5 +1,7 @@
 import React from 'react'
 import { words } from '../constants/index.js'
+import Button from '../components/Button.jsx'
+import HeroExperience from '../components/HeroModels/HeroExperience.jsx'
 
 
 
@@ -32,10 +34,20 @@ const Hero = () => {
                         <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
                             Writing code from the San Francisco Bay Area while learning and growing everyday. 
                         </p>
+                        <Button 
+                         className='md:w-80 md:h-16 w-60 h-12'
+                         id='button'
+                         text='See my Work'
+                        />
                     </div>
 
                 </header>
                 {/*RIGHT: 3D MODEL */}
+                <figure>
+                    <div className='hero-3d-layout mt-15 lg:mt-0 ml-0 mr-auto lg:mx-auto'>
+                    <HeroExperience />
+                    </div>
+                </figure>
             </div>
         </section>
     )
