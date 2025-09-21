@@ -2,10 +2,27 @@ import React from 'react'
 import { words } from '../constants/index.js'
 import Button from '../components/Button.jsx'
 import HeroExperience from '../components/HeroModels/HeroExperience.jsx'
-
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap'
+import AnimatedCounter from '../components/AnimatedCounter.jsx'
 
 
 const Hero = () => {
+    useGSAP(()=> {
+        gsap.fromTo('.hero-text h1',
+        {
+            y:50,
+            opacity: 0
+        },
+        {
+            y:0,
+            opacity:1,
+            stagger:.2,
+            duration:1,
+            ease: 'power.inOut'
+        }
+    )
+    })
     return(
         <section id="hero" className='relative overflow-hidden'>
             <div className="absolute top-0 left-0 z-10">
@@ -19,7 +36,7 @@ const Hero = () => {
                         <div className='hero-text'>
                             <h1>Hi! I'm Vince Truong
                             </h1>
-                            <h1>Your                                  
+                            <h1>The                                  
                                 <span className='slide'>
                                     <span className='wrapper'>
                                         {words.map((word)=>(
@@ -32,12 +49,12 @@ const Hero = () => {
                             <h1>Who Delivers Results</h1>
                         </div>
                         <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-                            Writing code from the San Francisco Bay Area while learning and growing everyday. 
+                            Currently writing code from the San Francisco Bay Area while learning and growing everyday. 
                         </p>
                         <Button 
                          className='md:w-80 md:h-16 w-60 h-12'
                          id='button'
-                         text='See my Work'
+                         text='Learn More'
                         />
                     </div>
 
@@ -49,6 +66,8 @@ const Hero = () => {
                     </div>
                 </figure>
             </div>
+            <AnimatedCounter />
+                                           
         </section>
     )
 }

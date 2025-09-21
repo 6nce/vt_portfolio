@@ -1,9 +1,10 @@
+export 
 
-export const words = [
-    {text:'Developer 👨🏻‍💻' },
+const words = [
     {text:'Designer 🖌️' },
-    {text:'Front-End Specialist 🖼️' },
-    {text:'Software Engineer 💾' },
+    {text:'Developer 👨🏻‍💻' },
+    {text:'Problem Solver ✅' },
+    {text:'Full-Stack Engineer 🥞' },
     {text:'Humbler 🐽' },
     {text:'WGU Alumni 🦉' },
     {text:'49er Faithful 🏈' },
@@ -13,4 +14,12 @@ export const words = [
     {text:'Humbler'},
     {text:'Buddy'},
     {text:'We Believer'},
+]
+
+export
+const counterItems = [
+    { value: 5, suffix: "+", label: "Years of Design Experience"},
+    { value: 3, suffix: "+", label: "Years of Operations Experience"},
+    { value: 7, suffix: "+", label: "Years at IGN/ Humble Bundle"},
+    { value: 266, prefix:"$", suffix: "M+", label: "Raised for Charity at Humble Bundle"},
 ]
