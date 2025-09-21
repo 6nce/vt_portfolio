@@ -1,0 +1,44 @@
+import React from 'react'
+import { words } from '../constants/index.js'
+
+
+
+const Hero = () => {
+    return(
+        <section id="hero" className='relative overflow-hidden'>
+            <div className="absolute top-0 left-0 z-10">
+                <img src="/images/bg.png"alt="background" />
+            </div>
+
+            <div className='hero-layout'>
+                {/*LEFT: HERO CONTENT */}
+                <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
+                    <div className='flex flex-col gap-7'>
+                        <div className='hero-text'>
+                            <h1>Hi! I'm Vince Truong
+                            </h1>
+                            <h1>Your                                  
+                                <span className='slide'>
+                                    <span className='wrapper'>
+                                        {words.map((word)=>(
+                                            <span key={word.text} className='flex items-center md:gap-3 gap-1 pb-2'>
+                                            <span>{word.text}</span>
+                                        </span>
+                                        ))}
+                                    </span>
+                                </span></h1>
+                            <h1>Who Delivers Results</h1>
+                        </div>
+                        <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
+                            Writing code from the San Francisco Bay Area while learning and growing everyday. 
+                        </p>
+                    </div>
+
+                </header>
+                {/*RIGHT: 3D MODEL */}
+            </div>
+        </section>
+    )
+}
+
+export default Hero
