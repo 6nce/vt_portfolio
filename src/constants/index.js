@@ -23,3 +23,93 @@ const counterItems = [
     { value: 7, suffix: "+", label: "Years at IGN/ Humble Bundle"},
     { value: 266, prefix:"$", suffix: "M+", label: "Raised for Charity at Humble Bundle"},
 ]
+
+export
+const navLinks = [
+    {
+        name: "Work",
+        link:"#work",
+    },
+    {
+        name: "Experience",
+        link:"#experience",
+    },
+    {
+        name: "Skills",
+        link:"#skills",
+    },
+    {
+        name: "Testimonials",
+        link:"#testimonials",
+    },
+]
+
+export const logoIconsList = [
+    {
+        imgPath: "/images/newlogos/brand-logo-1.png"
+    },
+    {
+        imgPath: "/images/newlogos/brand-logo-2.png"
+    },
+    {
+        imgPath: "/images/newlogos/brand-logo-3.png"
+    },
+    {
+        imgPath: "/images/newlogos/brand-logo-4.png"
+    },
+    {
+        imgPath: "/images/newlogos/brand-logo-5.png"
+    },
+    {
+        imgPath: "/images/newlogos/brand-logo-6.png"
+    },
+    {
+        imgPath: "/images/newlogos/brand-logo-7.png"
+    },
+    {
+        imgPath: "/images/newlogos/brand-logo-8.png"
+    },
+    {
+        imgPath: "/images/newlogos/brand-logo-9.png"
+    },
+    {
+        imgPath: "/images/newlogos/brand-logo-10.png"
+    },
+    {
+        imgPath: "/images/newlogos/brand-logo-11.png"
+    },
+    {
+        imgPath: "/images/newlogos/brand-logo-12.png"
+    },
+    {
+        imgPath: "/images/newlogos/brand-logo-13.png"
+    },
+    {
+        imgPath: "/images/newlogos/brand-logo-14.png"
+    },    
+    {
+        imgPath: "/images/newlogos/brand-logo-15.png"
+    },
+    
+
+]
+
+export
+const abilities = [
+    {imgPath:"",
+    title:"Effective",
+    subtitle:"Delivering work that matters for teams that care",
+    desc:"Effective marketing in my current role allows us to better contribute to causes in need of support.",
+    },
+    {imgPath:"",
+    title:"Efficient",
+    subtitle:"Making every visual opportunity count",
+    desc:"Efficiency—in time, opportunity, and quality—is key to continued success in any role, and I pride myself on maintaining it.”",
+    },
+    {imgPath:"",
+    title:"Experienced",
+    subtitle:"Transforming past growth into tomorrow’s opportunities",
+    desc:"Having grown through both successes and challenges, I am eager to leverage my past experience to make an impact and contribute meaningfully in a Software Engineering role.",
+    },
+
+]
