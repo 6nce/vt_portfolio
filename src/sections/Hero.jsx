@@ -49,7 +49,7 @@ const Hero = () => {
                             <h1>Who Delivers Results</h1>
                         </div>
                         <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-                            Currently writing code from the San Francisco Bay Area while learning and growing everyday. 
+                            Currently writing code from the <strong>San Francisco Bay Area</strong> while learning and growing everyday. 
                         </p>
                         <Button 
                          className='md:w-80 md:h-16 w-60 h-12'

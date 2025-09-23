@@ -113,3 +113,45 @@ const abilities = [
     },
 
 ]
+
+export const expCards = [
+    {
+        review:"IGN Entertainment is one of the leading Internet media companies focused on video games and entertainment. IGN reaches more than 360 million monthly users around the world, and is followed by more than 58MM social and YouTube followers.",
+        imgPath:"/images/ignlogo.png",
+        logoPath:"/images/ignlogo.png",
+        title:"Designer",
+        date:"Feb 2021 - Present",
+        responsibilities:[
+            "Designing digital branding and marketing material for launches, promotions, bundles, etc.",
+            "Connecting the bridge between our users and our mission through data-driven design",
+            "Increasing output efficiency through steady process improvemen.t",
+    
+        ],
+    },
+    {
+        review:"Improving lives through a shared love of games. Humble sells games, ebooks, software, and other digital content. With bundles being founding focus, a portion of all sales goes to charities around the world. Humble has raised over $250 Million for charity.",
+        imgPath:"/images/hblogo.png",
+        logoPath:"/images/hblogo.png",
+        title:"Designer",
+        date:"Feb 2021 - Present",
+        responsibilities:[
+            "Designing digital branding and marketing material for launches, promotions, bundles, etc.",
+            "Connecting the bridge between our users and our mission through data-driven design",
+            "Increasing output efficiency through steady process improvemen.t",
+    
+        ],
+    },
+    {
+        review:"Wix is a cloud-based platform for creating, managing, and growing websites, particularly popular for its intuitive drag-and-drop editor that allows users to build professional sites without coding experience.",
+        imgPath:"/images/wixlogo.png",
+        logoPath:"/images/wixlogo.png",
+        title:"Designer",
+        date:"Feb 2021 - Present",
+        responsibilities:[
+            "Designing digital branding and marketing material for launches, promotions, bundles, etc.",
+            "Connecting the bridge between our users and our mission through data-driven design",
+            "Increasing output efficiency through steady process improvemen.t",
+    
+        ],
+    },
+]
