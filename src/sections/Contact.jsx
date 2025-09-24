@@ -21,7 +21,7 @@ const Contact = () => {
                         Hope to hear from you soon!
                     </p>
                     <EmailButton
-                        className='md:w-80 md:h-16 w-screen md:px-0 px-30 h-12'
+                        className='md:w-80 md:h-16 w-screen md:px-0 px-10 h-12'
                         id='button'
                         text='Send Email'
                     />
