@@ -1,5 +1,4 @@
 export 
-
 const words = [
     {text:'Designer 🖌️' },
     {text:'Developer 👨🏻‍💻' },
@@ -37,10 +36,6 @@ const navLinks = [
     {
         name: "Skills",
         link:"#skills",
-    },
-    {
-        name: "Testimonials",
-        link:"#testimonials",
     },
 ]
 
@@ -118,40 +113,70 @@ export const expCards = [
     {
         review:"IGN Entertainment is one of the leading Internet media companies focused on video games and entertainment. IGN reaches more than 360 million monthly users around the world, and is followed by more than 58MM social and YouTube followers.",
         imgPath:"/images/ignlogo.png",
-        logoPath:"/images/ignlogo.png",
+        logoPath:"/images/ignsmalllogo.png",
         title:"Designer",
         date:"Feb 2021 - Present",
         responsibilities:[
             "Designing digital branding and marketing material for launches, promotions, bundles, etc.",
             "Connecting the bridge between our users and our mission through data-driven design",
-            "Increasing output efficiency through steady process improvemen.t",
-    
+            "Increasing output efficiency through steady process improvement",
+            "Remained as a Humble designer until 2024. Team merge to parent company IGN began 2025",
+            "Officially Migrated to IGN Design team to assist in asset production for multiple brands, primarily Humble",
         ],
     },
     {
         review:"Improving lives through a shared love of games. Humble sells games, ebooks, software, and other digital content. With bundles being founding focus, a portion of all sales goes to charities around the world. Humble has raised over $250 Million for charity.",
         imgPath:"/images/hblogo.png",
-        logoPath:"/images/hblogo.png",
-        title:"Designer",
-        date:"Feb 2021 - Present",
+        logoPath:"/images/hbsmalllogo.png",
+        title:"Product Operations Coordinator",
+        date:"March 2019 - February 2021",
         responsibilities:[
-            "Designing digital branding and marketing material for launches, promotions, bundles, etc.",
-            "Connecting the bridge between our users and our mission through data-driven design",
-            "Increasing output efficiency through steady process improvemen.t",
-    
+            "Assisted in the production and QA of Humble Store products and promotions",
+            "Utilized inventory systems to organize and track materials for processing",
+            "Collaborated with Engineering to improve current designs and workflow",
+            "Moved to design team to focus on quality production of marketing assets in 2021"
         ],
     },
     {
         review:"Wix is a cloud-based platform for creating, managing, and growing websites, particularly popular for its intuitive drag-and-drop editor that allows users to build professional sites without coding experience.",
         imgPath:"/images/wixlogo.png",
-        logoPath:"/images/wixlogo.png",
-        title:"Designer",
-        date:"Feb 2021 - Present",
+        logoPath:"/images/wixsmalllogo.png",
+        title:"Product Support Specialist",
+        date:"September 2017 - March 2019",
         responsibilities:[
-            "Designing digital branding and marketing material for launches, promotions, bundles, etc.",
-            "Connecting the bridge between our users and our mission through data-driven design",
-            "Increasing output efficiency through steady process improvemen.t",
-    
+            "Developed resources and streamlined processes to increase department-wide efficiency",
+            "Specialized in third-party eCommerce integration and troubleshooting",
+            "Assisted in agent development through training and mentoring.",
         ],
     },
+
+    
 ]
+
+export const techStackImgs = [
+    {
+      name: "Front-end Library",
+      imgPath: "/images/logos/react.png",
+      alt: "React"
+    },
+    {
+      name: "Back-end Framework",
+      imgPath: "/images/logos/SB.png",
+      alt: "Spring Boot"
+    },
+    {
+      name: "Primary Programming Language",
+      imgPath: "/images/logos/java.png",
+      alt: "Java"
+    },
+    {
+      name: "Cloud Service Provider",
+      imgPath: "/images/logos/aws.png",
+      alt: "Amazon Web Services"
+    },
+    {
+      name: "Version Control System",
+      imgPath: "/images/logos/git.png",
+      alt: "GitHub"
+    },
+];
