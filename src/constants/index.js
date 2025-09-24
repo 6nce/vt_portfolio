@@ -99,7 +99,7 @@ const abilities = [
     {imgPath:"",
     title:"Efficient",
     subtitle:"Making every visual opportunity count",
-    desc:"Efficiency—in time, opportunity, and quality—is key to continued success in any role, and I pride myself on maintaining it.”",
+    desc:"Efficiency—in time, opportunity, and quality—is key to continued success in any role, and I pride myself on maintaining it.",
     },
     {imgPath:"",
     title:"Experienced",
