@@ -117,9 +117,9 @@ export const expCards = [
         title:"Designer",
         date:"Feb 2021 - Present",
         responsibilities:[
-            "Designing digital branding and marketing material for launches, promotions, bundles, etc.",
-            "Connecting the bridge between our users and our mission through data-driven design",
-            "Increasing output efficiency through steady process improvement",
+            "Delivered design assets in Agile/Scrum workflows, collaborating with developers to align creative deliverables with sprint goals.",
+            "Partnered with engineering teams to optimize asset formats and pipelines, improving delivery speed and technical compatibility.",
+            "Created cross-brand campaign assets that supported major partnerships and boosted user engagement.",
             "Remained as a Humble designer until 2024. Team merge to parent company IGN began 2025",
             "Officially Migrated to IGN Design team to assist in asset production for multiple brands, primarily Humble",
         ],
@@ -131,9 +131,9 @@ export const expCards = [
         title:"Product Operations Coordinator",
         date:"March 2019 - February 2021",
         responsibilities:[
-            "Assisted in the production and QA of Humble Store products and promotions",
-            "Utilized inventory systems to organize and track materials for processing",
-            "Collaborated with Engineering to improve current designs and workflow",
+            "Partnered with engineers in Agile/Scrum workflows to align sprint deliverables with releases.",
+            "Assisted with QA checks in collaboration with designers and developers, enhancing launch reliability and reducing last-minute issues.",
+            "Optimized asset formats with engineers to improve delivery speed and compatibility.",
             "Moved to design team to focus on quality production of marketing assets in 2021"
         ],
     },
