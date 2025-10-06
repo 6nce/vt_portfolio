@@ -1,7 +1,7 @@
 import React from 'react'
 import TitleHeader from '../components/TitleHeader'
 import ContactModel from '../components/ContactModel'
-import EmailButton from '../components/EmailButton'
+import EmailButton, { CsvButton } from '../components/EmailButton'
 
 const Contact = () => {
   return (
@@ -17,14 +17,24 @@ const Contact = () => {
                     <div className='contact-text my-0 py-0'>
                         <h1>Send me an Email </h1>
                     </div>
-                    <p className="text-white-50 sm:text-lg text-sm relative z-10 pointer-events-none mb-5">
-                        Hope to hear from you soon!
-                    </p>
+
                     <EmailButton
                         className='md:w-80 md:h-16 w-screen md:px-0 px-10 h-12'
                         id='button'
                         text='Send Email'
                     />
+                    <p className="text-white-50 sm:text-lg text-sm">
+                        or if you prefer..
+                    </p>
+                    <CsvButton
+                        className='md:w-80 md:h-16 w-screen md:px-0 px-10 h-12'
+                        id='button'
+                        text='Download CSV'
+                    />
+                    <p className="text-white-50 sm:text-lg text-sm relative z-10 pointer-events-none mb-5">
+                        Hope to hear from you soon!
+                    </p>
+
                 </div>
 
                 </div>
