@@ -21,7 +21,7 @@ export default EmailButton
 export const CsvButton = ({text, className, id }) => {
   return (
     <a 
-    href="../src/components/VincentTruongResume.pdf"
+    href="../public/VincentTruongResume.pdf"
 
     className={`${className ?? ''} cta-wrapper`}>
         <div className='cta-button group'>
